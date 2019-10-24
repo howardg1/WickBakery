@@ -19,7 +19,7 @@ def enter_cookie():
 def cookies_avg():
     return mean(cookies)
 
-
+# Do not call any functions until after they are all written.  Move this to the end
 print(f"The average amount of cookies sold is: {cookies_avg()}")
 
 
@@ -44,7 +44,7 @@ def enter_candy():
 def candies_avg():
     return mean(candies)
 
-
+# Do not call any functions until after they are all written.
 print(f"The average amount of candies sold is: {candies_avg()}")
 
 
@@ -56,7 +56,7 @@ def candies_min():
     candies.sort()
     print("The minimum number of candies sold is: ", *candies[:1])
 
-
+# Here is where your calls to the functions should be:
 cookie_average = cookies_avg()
 candy_average = candies_avg()
 
